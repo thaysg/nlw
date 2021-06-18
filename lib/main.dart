@@ -1,4 +1,4 @@
-import 'package:DevQuiz/screens/splash_screen.dart';
+import 'package:DevQuiz/screens/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Avengers Quiz',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        scaffoldBackgroundColor: Colors.grey[350],
+      theme: ThemeData.dark().copyWith(
+        primaryColor: Color(0xff07091D),
+        scaffoldBackgroundColor: Color(0xff07091D),
       ),
       home: MySplashScreen(),
     );

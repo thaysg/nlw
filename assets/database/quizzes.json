@@ -1,56 +1,679 @@
 [
     {        
-        "title": "Question 1",
-        "image": "blocks",
+        "title": "Fácil",
+        "image": "assets/images/l1.png",        
         "questionAnswerd": 0,
-        "level": "facil",
+        "level": "easy",
+        "color": "1",
         "questions": [
-          {"title": "First Question", 
+          {"title": "Qual o nome do primeiro casal criado por Deus?", 
             "answers": [
-         { "title": "Estou curtindo", "isRight": true},
-         { "title": "Estou Amando"},
-         { "title": "Estou Odiando"},
-         { "title": "Estou Gostando"}            
+         { "title": "José e Maria"},
+         { "title": "Ananias e Safira"},
+         { "title": "Adão e Eva", "isRight": true},
+         { "title": "Sansão e Dalila"}            
             ]
           },
           {
-            "title": "Second Question", 
+            "title": "O que Noé construiu?", 
             "answers": [
-         { "title": "Estou curtindo", "isRight": true},
-         { "title": "Estou Amando"},
-         { "title": "Estou Odiando"},
-         { "title": "Estou Gostando"}            
+         { "title": "Uma torre"},
+         { "title": "Um altar"},
+         { "title": "Uma arca", "isRight": true},
+         { "title": "O Templo"}            
+            ]
+          },
+          {"title": "Qual foi o sinal que Deus deu a Noé, como promessa de não mais destruir a terra com água?", 
+            "answers": [
+         { "title": "Arco-íris", "isRight": true},
+         { "title": "Cruz"},
+         { "title": "Bezerro de ouro"},
+         { "title": "Castiçal"}            
+            ]
+          },
+          {"title": "Quem derrotou Golias?", 
+            "answers": [
+         { "title": "Saul"},
+         { "title": "Samuel"},
+         { "title": "Josué"},
+         { "title": "Davi", "isRight": true}            
+            ]
+          },
+          {"title": "Quais alimentos Jesus multiplicou?", 
+            "answers": [
+         { "title": "Bolos e frutas"},
+         { "title": "Pães e peixes", "isRight": true},
+         { "title": "Pão e vinho"},
+         { "title": "Pão e azeite"}            
+            ]
+          },
+          {"title": "Quantos eram os discípulos de Jesus?", 
+            "answers": [
+         { "title": "12", "isRight": true},
+         { "title": "15"},
+         { "title": "6"},
+         { "title": "10"}            
+            ]
+          },
+          {"title": "Qual o primeiro livro da Bíblia?", 
+            "answers": [
+         { "title": "Apocalipse"},
+         { "title": "Gênesis", "isRight": true},
+         { "title": "Mateus"},
+         { "title": "Salmos"}            
+            ]
+          },
+          {"title": "Em qual livro bíblico está escrito o versículo: O Senhor é o meu pastor, nada me faltará?", 
+            "answers": [
+         { "title": "Mateus 28:1"},
+         { "title": "Salmos 23:1", "isRight": true},
+         { "title": "Salmos 91:5"},
+         { "title": "Salmos 119:105"}            
+            ]
+          },
+          {"title": "Qual é o último livro da Bíblia?", 
+            "answers": [
+         { "title": "Apocalipse", "isRight": true},
+         { "title": "Gênesis"},
+         { "title": "Mateus"},
+         { "title": "Salmos"}            
+            ]
+          },
+          {"title": "Quem ficou 3 dias na barriga de um grande peixe?", 
+            "answers": [
+         { "title": "Jonas", "isRight": true},
+         { "title": "José"},
+         { "title": "Jonatas"},
+         { "title": "Josué"}            
             ]
           }
                    
         ]            
     },
+
     {        
-      "title": "Question 2",
-      "image": "blocks",
+      "title": "Médio",
+      "image": "assets/images/l2.png",
       "questionAnswerd": 0,
-      "level": "facil",
+      "level": "medium",
+      "color": "2",
       "questions": [
-        {"title": "First Question", 
+        {"title": "A qual tribo Paulo pertencia?", 
           "answers": [
-       { "title": "Estou curtindo", "isRight": true},
-       { "title": "Estou Amando"},
-       { "title": "Estou Odiando"},
-       { "title": "Estou Gostando"}            
+       { "title": "Benjamim", "isRight": true},
+       { "title": "Judá"},
+       { "title": "Efraim"},
+       { "title": "Manassés"}            
           ]
         },
         {
-          "title": "Second Question", 
+          "title": "Qual o nome da única filha de Jacó?", 
           "answers": [
-       { "title": "Estou curtindo", "isRight": true},
-       { "title": "Estou Amando"},
-       { "title": "Estou Odiando"},
-       { "title": "Estou Gostando"}            
+       { "title": "Diná", "isRight": true},
+       { "title": "Rebeca"},
+       { "title": "Ana"},
+       { "title": "Zípora"}            
           ]
-        }
-                 
+        },
+        {
+          "title": "A qual tribo Josué pertencia?", 
+          "answers": [
+            { "title": "Benjamim"},
+            { "title": "Judá", "isRight": true},
+            { "title": "Efraim"},
+            { "title": "Manassés"}             
+          ]
+        },
+        {
+          "title": "Qual filho de Jacó foi vendido por seus irmãos?", 
+          "answers": [
+       { "title": "Ruben"},
+       { "title": "Judá"},
+       { "title": "José", "isRight": true},
+       { "title": "Benjamim"}            
+          ]
+        },
+        {
+          "title": "Qual o nome do ladrão que foi solto pelo povo no lugar de Jesus?", 
+          "answers": [
+       { "title": "José"},
+       { "title": "Nicodemos"},
+       { "title": "Barrabás", "isRight": true},
+       { "title": "Não falam seu nome"}            
+          ]
+        },
+        {
+          "title": "Em qual ilha João ficou preso quando escreveu o livro de Apocalipse?", 
+          "answers": [
+       { "title": "Malvinas"},
+       { "title": "Patmos", "isRight": true},
+       { "title": "Creta"},
+       { "title": "Éfeso"}            
+          ]
+        },
+        {
+          "title": "Qual nome do casal que mentiu ao Espírito Santo e morreu?", 
+          "answers": [
+       { "title": "Ananias e Safira", "isRight": true},
+       { "title": "Jacó e Raquel"},
+       { "title": "Isaque e Rebeca"},
+       { "title": "Sansão e Dalila"}            
+          ]
+        },
+        {
+          "title": "Que animal falou com Balaão?", 
+          "answers": [
+       { "title": "Jumenta", "isRight": true},
+       { "title": "Camelo"},
+       { "title": "Cordeiro"},
+       { "title": "Pomba"}            
+          ]
+        },
+        {
+          "title": "Quem foi o pai de Sem, Cam e Jafé?", 
+          "answers": [
+       { "title": "Abraão"},
+       { "title": "Noé", "isRight": true},
+       { "title": "Davi"},
+       { "title": "Matusalém"}            
+          ]
+        },
+        {
+          "title": "Qual o nome da mãe de Samuel", 
+          "answers": [
+       { "title": "Penina"},
+       { "title": "Raquel", "isRight": true},
+       { "title": "Ana"},
+       { "title": "Rebeca"}            
+          ]
+        },
+        {
+          "title": "A benção que era de Manassés, Jacó deu a quem?", 
+          "answers": [
+       { "title": "Efraim", "isRight": true},
+       { "title": "José"},
+       { "title": "Esaú"},
+       { "title": "Judá"}            
+          ]
+        },
+        {
+          "title": "Qual profeta fez um machado flutuar?", 
+          "answers": [
+       { "title": "Elias"},
+       { "title": "Isaías"},
+       { "title": "Jeremias"},
+       { "title": "Eliseu", "isRight": true}            
+          ]
+        },
+        {
+          "title": "Atacaram dois rapazinhos de Betel por zombarem do profeta Eliseu:", 
+          "answers": [
+       { "title": "2 ursa", "isRight": true},
+       { "title": "2 leoas"},
+       { "title": "2 víboras"},
+       { "title": "2 leões"}            
+          ]
+        },
+        {
+          "title": "Elifaz, Bildade, Zofar e Eliú são personagens de qual livro?", 
+          "answers": [
+       { "title": "Jonas"},
+       { "title": "Esdras"},
+       { "title": "Ester"},
+       { "title": "Jó", "isRight": true}            
+          ]
+        },
+        {
+          "title": "Quem disse: `Eis-me aqui, envia-me a mim`", 
+          "answers": [
+       { "title": "Jonas"},
+       { "title": "Jeremias"},
+       { "title": "Paulo"},
+       { "title": "Isaías", "isRight": true}            
+          ]
+        },
+        {
+          "title": "O que significa `talita cumi`?", 
+          "answers": [
+       { "title": "Pesado foi teu reino"},
+       { "title": "Saia daqui"},
+       { "title": "Menina, levante-se", "isRight": true},
+       { "title": "Talita, venha aqui"}            
+          ]
+        },
+        {
+          "title": "Qual dos evangelhos inicia-se narrando fatos relacionados a vida dos pais de João Batista?", 
+          "answers": [
+       { "title": "Mateus"},
+       { "title": "Marcos"},
+       { "title": "Lucas", "isRight": true},
+       { "title": "João"}            
+          ]
+        },
+        {
+          "title": "Qual era o nome do deus pagão atribuído a Barnabé?", 
+          "answers": [
+       { "title": "Marte"},
+       { "title": "Mercúrio"},
+       { "title": "Plutão"},
+       { "title": "Júpiter", "isRight": true}            
+          ]
+        },
+        {
+          "title": "Qual era o nome do deus pagão atribuído a Paulo?", 
+          "answers": [
+            { "title": "Marte"},
+            { "title": "Mercúrio", "isRight": true},
+            { "title": "Plutão"},
+            { "title": "Júpiter"}           
+          ]
+        },
+        {
+          "title": "Malom e Quilom foram filhod fe que casal?", 
+          "answers": [
+       { "title": "Elimeleque e Noemi", "isRight": true},
+       { "title": "Ananias e Safira"},
+       { "title": "Anrão e Joquebede"},
+       { "title": "Abraão e Sara"}            
+          ]
+        }                 
       ]            
-  }
+  },
 
+  {        
+    "title": "Díficil",
+    "image": "assets/images/l3.png",
+    "questionAnswerd": 0,
+    "level": "hard",
+    "color": "3",
+    "questions": [
+      {"title": "Qual o nome e a idade da pessoa mais velha mencionada na Bíblia?", 
+        "answers": [
+     { "title": "Enos, 905 anos"},
+     { "title": "Noé, 990 anos"},
+     { "title": "Adão, 980 anos"},
+     { "title": "Matusalém, 969 anos", "isRight": true}            
+        ]
+      },
+      {
+        "title": "Qual desses não teve o seu nome mudado na Bíblia?", 
+        "answers": [
+     { "title": "Davi", "isRight": true},
+     { "title": "Abraão"},
+     { "title": "Sara"},
+     { "title": "Jacó"}            
+        ]
+      },
+      {
+        "title": "Qual o nome que Jacó deu ao lugar onde sonhou com Deus?", 
+        "answers": [
+     { "title": "Be­tuel"},
+     { "title": "Luz"},
+     { "title": "Betel", "isRight": true},
+     { "title": "Ebenézer"}            
+        ]
+      },
+      {
+        "title": "Qual o menor livro da Bíblia?", 
+        "answers": [
+     { "title": "I João"},
+     { "title": "II João", "isRight": true},
+     { "title": "III João"},
+     { "title": "Judas"}            
+        ]
+      },
+      {
+        "title": "A quem o Apóstolo Paulo chamou de 'médico amado'?", 
+        "answers": [
+     { "title": "Lucas", "isRight": true},
+     { "title": "Marcos"},
+     { "title": "Apolo"},
+     { "title": "Demas"}            
+        ]
+      },
+      {
+        "title": "Na visão profética de João qual era o número de cavaleiros do Apocalipse?", 
+        "answers": [
+     { "title": "7", "isRight": true},
+     { "title": "5"},
+     { "title": "3"},
+     { "title": "8"}            
+        ]
+      },
+      {
+        "title": "Quem governou sendo rei e sacerdote ao mesmo tempo?", 
+        "answers": [
+     { "title": "Davi"},
+     { "title": "Salomão"},
+     { "title": "Saul"},
+     { "title": "Melquisedeque", "isRight": true}            
+        ]
+      },
+      {
+        "title": "Que animal mordeu a mão do Apóstolo Paulo?", 
+        "answers": [
+     { "title": "Escorpião"},
+     { "title": "Aranha"},
+     { "title": "Víbora", "isRight": true},
+     { "title": "Lagarto"}            
+        ]
+      },
+      {
+        "title": "Qual era o nome da única filha de Lia?", 
+        "answers": [
+     { "title": "Raquel"},
+     { "title": "Diná", "isRight": true},
+     { "title": "Rebeca"},
+     { "title": "Zilpa"}            
+        ]
+      },
+      {
+        "title": "Adão viveu ao todo quantos anos?", 
+        "answers": [
+     { "title": "930", "isRight": true},
+     { "title": "950"},
+     { "title": "500"},
+     { "title": "759"}            
+        ]
+      },
+      {
+        "title": "Qual era o nome da mulher de Jó?", 
+        "answers": [
+     { "title": "Débora"},
+     { "title": "Ester"},
+     { "title": "Abigail"},
+     { "title": "A Bíblia não diz", "isRight": true}            
+        ]
+      },
+      {
+        "title": "Quem Noé amaldiçoou após saber que foi visto em nudez?", 
+        "answers": [
+     { "title": "Sem"},
+     { "title": "Cam", "isRight": true},
+     { "title": "Jafé"},
+     { "title": "Jó"}            
+        ]
+      },
+      {
+        "title": "Quem tinha um cabelo que pesava mais de dois quilos e era necessário cortar todo ano?", 
+        "answers": [
+     { "title": "Sansão"},
+     { "title": "Saul"},
+     { "title": "Absalão", "isRight": true},
+     { "title": "Davi"}            
+        ]
+      },
+      {
+        "title": "Quem teve a vida prolongada por mais 15 anos após orar?", 
+        "answers": [
+     { "title": "Ezequias", "isRight": true},
+     { "title": "Ezequiel"},
+     { "title": "Matusalém"},
+     { "title": "Moisés"}            
+        ]
+      },
+      {
+        "title": "Quem foram apelidados pela multidão em Listra de Zeus e Hermes?", 
+        "answers": [
+     { "title": "Pedro e João"},
+     { "title": "Barnabé e Paulo", "isRight": true},
+     { "title": "Paulo e Silas"},
+     { "title": "João e Tiago"}            
+        ]
+      },
+      {
+        "title": "Qual filho de Davi que reinou em seu lugar?", 
+        "answers": [
+     { "title": "Adonias"},
+     { "title": "Roboão"},
+     { "title": "Jeroboão"},
+     { "title": "Salomão", "isRight": true}            
+        ]
+      },
+      {
+        "title": "Como se chamava o terceiro filho de Adão?", 
+        "answers": [
+     { "title": "Caim"},
+     { "title": "Abel"},
+     { "title": "Enos"},
+     { "title": "Sete", "isRight": true}            
+        ]
+      },
+      {
+        "title": "Por quantos siclos de prata José foi vendido?", 
+        "answers": [
+     { "title": "20", "isRight": true},
+     { "title": "30"},
+     { "title": "40"},
+     { "title": "50"}            
+        ]
+      },
+      {
+        "title": "Qual era a cor dos cabelos de Davi?", 
+        "answers": [
+     { "title": "Pretos"},
+     { "title": "Castanhos"},
+     { "title": "Ruivos", "isRight": true},
+     { "title": "Brancos"}            
+        ]
+      },
+      {
+        "title": "Em quais idiomas foi escrito o título 'Jesus nazareno, o rei dos judeus' colocado em cima da cruz de Cristo?", 
+        "answers": [
+     { "title": "Hebraico, grego e aramaico"},
+     { "title": "Grego, latim e aramaico", "isRight": true},
+     { "title": "Hebraico, latim e grego"},
+     { "title": "Hebraico, latim, grego e aramaico"}            
+        ]
+      }               
+    ]            
+},
+
+{        
+  "title": "Expert",
+  "image": "assets/images/l4.png",
+  "questionAnswerd": 0,
+  "level": "expert",
+  "color": "0xffd11f40",
+  "questions": [
+    {"title": "A quem Paulo chamou de 'meu companheiro de lutas'?", 
+      "answers": [
+   { "title": "Apolo"},
+   { "title": "Silas"},
+   { "title": "Barnabé"},
+   { "title": "Arquipo", "isRight": true}            
+      ]
+    },
+    {
+      "title": "Quais discípulos perguntaram a Jesus se podiam fazer descer fogo do céu?", 
+      "answers": [
+   { "title": "João e Tiago", "isRight": true},
+   { "title": "Pedro e João"},
+   { "title": "Pedro e Tiago"},
+   { "title": "Pedro, Tiago e João"}            
+      ]
+    },
+    {
+      "title": "Qual era o nome da serpente de bronze que Moisés tinha feito?", 
+      "answers": [
+   { "title": "Neustã", "isRight": true},
+   { "title": "Leviatã"},
+   { "title": "Jormungand"},
+   { "title": "Apófis "}            
+      ]
+    },
+    {
+      "title": "Qual era o nome babilônico de Daniel?", 
+      "answers": [
+   { "title": "Aspenaz"},
+   { "title": "Misael"},
+   { "title": "Beltessazar", "isRight": true},
+   { "title": "Belsazar"}            
+      ]
+    },
+    {
+      "title": "Qual o livro da Bíblia que termina com um ponto de interrogação?", 
+      "answers": [
+   { "title": "Jonas", "isRight": true},
+   { "title": "Juda"},
+   { "title": "Joel"},
+   { "title": "Jeremias"}            
+      ]
+    },
+    {
+      "title": "Em quais livros da Bíblia não encontramos a palavra 'Deus'?", 
+      "answers": [
+   { "title": "Ageu e Amós"},
+   { "title": "Ester e Cânticos", "isRight": true},
+   { "title": "Oséias e Eclesiastes"},
+   { "title": "Ester e Esdras"}            
+      ]
+    },
+    {
+      "title": "Quem escreveu a Epístola de Judas?", 
+      "answers": [
+   { "title": "Judas Iscariotes"},
+   { "title": "Judas irmão de Jesus"},
+   { "title": "Lucas"},
+   { "title": "Judas irmão de Tiago", "isRight": true}            
+      ]
+    },
+    {
+      "title": "Quem teve seu corpo disputado pelo arcanjo Miguel e o Diabo?", 
+      "answers": [
+   { "title": "Elias", "isRight": true},
+   { "title": "Eliseu"},
+   { "title": "Moisés", "isRight": true},
+   { "title": "Noé"}            
+      ]
+    },
+    {
+      "title": "A Morte montada em um cavalo amarelo surgiu na abertura de qual selo em Apocalipse?", 
+      "answers": [
+   { "title": "Primeiro Selo", "isRight": true},
+   { "title": "Segundo Selo"},
+   { "title": "Terceiro Selo"},
+   { "title": "Quarto Selo", "isRight": true}            
+      ]
+    },
+    {
+      "title": "A estátua do sonho de Nabucodonosor era composta de quais elementos?", 
+      "answers": [
+   { "title": " Toda em ouro"},
+   { "title": "Ouro, prata, bronze, ferro e barro", "isRight": true},
+   { "title": "Ouro, prata, bronze, onix e ferro"},
+   { "title": "Ouro, prata, bronze, marfim e ferro"}            
+      ]
+    },
+    {
+      "title": "Qual foram os dois nomes indicados para substituir Judas Iscariotes?", 
+      "answers": [
+   { "title": "Barsabás e Matias", "isRight": true},
+   { "title": "Silas e Barnabé"},
+   { "title": "Paulo e Estevão"},
+   { "title": "Paulo e Matias"}            
+      ]
+    },
+    {
+      "title": "Em qual dia da criação foi feito o sol, a lua e as estrelas?", 
+      "answers": [
+   { "title": "1º dia"},
+   { "title": "2º dia"},
+   { "title": "3º dia"},
+   { "title": "4º dia", "isRight": true}            
+      ]
+    },
+    {
+      "title": "Qual é o versículo mais extenso da Bíblia?", 
+      "answers": [
+   { "title": "Salmos 119:105"},
+   { "title": "Salmos 119:119"},
+   { "title": "Ester 8:9", "isRight": true},
+   { "title": "Isaías 24:2"}            
+      ]
+    },
+    {
+      "title": "Quantos versículos tem Salmos 119?", 
+      "answers": [
+   { "title": "200"},
+   { "title": "176", "isRight": true},
+   { "title": "157"},
+   { "title": "105"}            
+      ]
+    },
+    {
+      "title": "Quais os 2 homens que o Apóstolo Paulo disse que naufragaram na fé?", 
+      "answers": [
+   { "title": "Himeneu e Alexandre", "isRight": true},
+   { "title": "Janes e Jambres"},
+   { "title": "Marcos e Tito"},
+   { "title": "Silas e Barnabé"}            
+      ]
+    },
+    {
+      "title": "Qual o nome do pai de Saul?", 
+      "answers": [
+   { "title": "Abiel"},
+   { "title": "Zeror"},
+   { "title": "Jessé"},
+   { "title": "Quiz", "isRight": true}            
+      ]
+    },
+    {
+      "title": "Balaão foi chamado por quem para amaldiçoar o povo de Israel?", 
+      "answers": [
+   { "title": "Moabe"},
+   { "title": "Balaque", "isRight": true},
+   { "title": "Zipor"},
+   { "title": "Faraó"}            
+      ]
+    },
+    {
+      "title": "Quais são as 7 igrejas que receberam as cartas em Apocalipse?", 
+      "answers": [
+   { "title": "Éfeso, Esmirna, Pérgamo, Tiatira, Sardes, Filadélfia e Laodicei", "isRight": true},
+   { "title": "Éfeso, Filipo, Pérgamo, Tiatira, Creta, Filadélfia e Laodiceia"},
+   { "title": "Éfeso, Macedônia, Pérgamo, Filipo, Tessalônica, Filadélfia e Laodiceia"},
+   { "title": "Éfeso, Esmirna, Corinto, Tiatira, Sardes, Filadélfia e Laodicei"}            
+      ]
+    },
+    {
+      "title": "Como se chamava a mulher de Arão?", 
+      "answers": [
+   { "title": "Miriã"},
+   { "title": "Eliseba", "isRight": true},
+   { "title": "Mara"},
+   { "title": "Não se sabe"}            
+      ]
+    },
+    {
+      "title": "Quem disse: pode vir alguma coisa boa de Nazaré?", 
+      "answers": [
+   { "title": "Natanael", "isRight": true},
+   { "title": "André"},
+   { "title": "Tomé"},
+   { "title": "Felipe"}            
+      ]
+    },
+    {
+      "title": "Qual é o oitavo mandamento?", 
+      "answers": [
+   { "title": "Não matarás"},
+   { "title": "Não adulterarás"},
+   { "title": "Não furtarás", "isRight": true},
+   { "title": "Honrar pai e mãe"}            
+      ]
+    },
+    {
+      "title": " Qual é a sexta praga do Egito?", 
+      "answers": [
+   { "title": "Gafanhotos"},
+   { "title": "Sapos"},
+   { "title": "Trevas"},
+   { "title": "Úlceras", "isRight": true}            
+      ]
+    }                
+  ]            
+}
     
 ]

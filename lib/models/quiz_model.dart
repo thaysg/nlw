@@ -1,24 +1,24 @@
 import 'dart:convert';
 
-import 'package:DevQuiz/components/models/question_model.dart';
+import 'package:DevQuiz/models/question_model.dart';
 
 enum Level { easy, medium, hard, expert }
 
 extension LevelStringExt on String {
   Level get parse => {
-        "facil": Level.easy,
-        "medio": Level.medium,
-        "dificil": Level.hard,
-        "perito": Level.expert,
+        "easy": Level.easy,
+        "medium": Level.medium,
+        "hard": Level.hard,
+        "expert": Level.expert,
       }[this]!;
 }
 
 extension LevelExt on Level {
   String get parse => {
-        Level.easy: "facil",
-        Level.medium: "medio",
-        Level.hard: "dificil",
-        Level.expert: "perito",
+        Level.easy: "easy",
+        Level.medium: "medium",
+        Level.hard: "hard",
+        Level.expert: "expert",
       }[this]!;
 }
 

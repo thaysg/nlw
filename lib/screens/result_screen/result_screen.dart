@@ -1,22 +1,33 @@
-import 'package:DevQuiz/challenge/widgets/next_button.dart';
 import 'package:DevQuiz/components/colors.dart';
 import 'package:DevQuiz/components/images.dart';
 import 'package:DevQuiz/components/text_style.dart';
+import 'package:DevQuiz/screens/challenge_screen/widgets/next_button.dart';
 import 'package:DevQuiz/screens/home/home.dart';
 import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';
 
-class ResultPage extends StatelessWidget {
+class ResultScreen extends StatelessWidget {
   final String title;
   final int lenght;
   final int result;
 
-  const ResultPage(
+  const ResultScreen(
       {Key? key,
       required this.title,
       required this.lenght,
       required this.result})
       : super(key: key);
+
+  score() {
+    if ((result / lenght) * 100 >= 80) {
+      return 'Parabéns';
+    } else if ((result / lenght) * 100 >= 60) {
+      return 'Continue assim';
+    } else {
+      return 'Você precisa ler a bíblia';
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,7 +47,8 @@ class ResultPage extends StatelessWidget {
             ),
             Expanded(
               child: Text(
-                'Parabéns!',
+                /* 'Parabéns!', */
+                score(),
                 style: AppTextStyles.heading40,
                 textAlign: TextAlign.center,
               ),

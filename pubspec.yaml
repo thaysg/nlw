@@ -11,6 +11,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   google_fonts: ^2.0.0
   share_plus: ^2.0.1
+  flutter_staggered_grid_view: ^0.3.0
 
 dev_dependencies:
   flutter_test:
@@ -20,5 +21,10 @@ flutter:
   assets:
     - assets/images/
     - assets/database/
+  
+  fonts:
+    - family: Regular 400
+      fonts:
+        - asset: fonts/BebasNeue-Regular.ttf
 
   uses-material-design: true

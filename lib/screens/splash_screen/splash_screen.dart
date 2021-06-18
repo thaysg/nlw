@@ -1,4 +1,5 @@
 import 'package:DevQuiz/components/app_color.dart';
+import 'package:DevQuiz/components/constants.dart';
 import 'package:DevQuiz/components/images.dart';
 import 'package:DevQuiz/screens/home/home.dart';
 import 'package:flutter/material.dart';
@@ -19,10 +20,20 @@ class MySplashScreen extends StatelessWidget {
         decoration: BoxDecoration(
           gradient: AppGradients.linear,
         ),
-        child: Center(
-          child: Image.asset(
-            AppImages.logo,
-          ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Quiz Bíblico',
+              textAlign: TextAlign.center,
+              style: splashText,
+            ),
+            Center(
+              child: Image.asset(
+                AppImages.logo,
+              ),
+            ),
+          ],
         ),
       ),
     );

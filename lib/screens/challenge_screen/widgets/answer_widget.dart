@@ -1,6 +1,6 @@
 import 'package:DevQuiz/components/colors.dart';
-import 'package:DevQuiz/components/models/answers_model.dart';
-import 'package:DevQuiz/components/text_style.dart';
+import 'package:DevQuiz/components/constants.dart';
+import 'package:DevQuiz/models/answers_model.dart';
 import 'package:flutter/material.dart';
 
 class Answer extends StatelessWidget {
@@ -30,7 +30,7 @@ class Answer extends StatelessWidget {
       answer.isRight ? AppColors.green : AppColors.red;
 
   TextStyle get _selectedTextStyleRight =>
-      answer.isRight ? AppTextStyles.bodyDarkGreen : AppTextStyles.bodyDarkRed;
+      answer.isRight ? rightText : wrongText;
 
   IconData get _selectedIconRight => answer.isRight ? Icons.check : Icons.close;
 
@@ -43,9 +43,12 @@ class Answer extends StatelessWidget {
           onTap(answer.isRight);
         },
         child: Container(
-          margin: EdgeInsets.symmetric(horizontal: 20, vertical: 4),
+          margin: EdgeInsets.symmetric(
+            horizontal: 20,
+            vertical: 10,
+          ),
           decoration: BoxDecoration(
-            color: isSelected ? _selectedColorCardRight : AppColors.white,
+            color: isSelected ? _selectedColorCardRight : AppColors.black,
             borderRadius: BorderRadius.circular(10),
             border: Border.fromBorderSide(
               BorderSide(
@@ -61,9 +64,7 @@ class Answer extends StatelessWidget {
                 Expanded(
                   child: Text(
                     answer.title,
-                    style: isSelected
-                        ? _selectedTextStyleRight
-                        : AppTextStyles.body,
+                    style: isSelected ? _selectedTextStyleRight : answerText,
                   ),
                 ),
                 Container(

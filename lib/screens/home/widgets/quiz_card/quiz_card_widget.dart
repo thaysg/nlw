@@ -1,15 +1,14 @@
+import 'package:DevQuiz/components/constants.dart';
 import 'package:flutter/material.dart';
-
 import 'package:DevQuiz/components/colors.dart';
-import 'package:DevQuiz/components/images.dart';
 import 'package:DevQuiz/components/linear_progress.dart';
-import 'package:DevQuiz/components/text_style.dart';
 
 class QuizCardWidget extends StatelessWidget {
   final String title;
   final String progress;
   final double percent;
   final VoidCallback onTap;
+  final String picture;
 
   const QuizCardWidget({
     Key? key,
@@ -17,6 +16,7 @@ class QuizCardWidget extends StatelessWidget {
     required this.progress,
     required this.percent,
     required this.onTap,
+    required this.picture,
   }) : super(key: key);
 
   @override
@@ -30,42 +30,43 @@ class QuizCardWidget extends StatelessWidget {
               color: AppColors.border,
             ),
           ),
-          color: AppColors.white,
+          gradient: kSecondaryGradient,
           borderRadius: BorderRadius.circular(10),
         ),
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Container(
                 height: 40,
-                width: 40,
-                child: Image.asset(AppImages.blocks),
+                width: 60,
+                child: Image.asset(
+                  picture,
+                ),
               ),
               SizedBox(
                 height: 20,
               ),
               Text(
                 title,
-                style: AppTextStyles.heading15,
+                style: levelText,
               ),
               SizedBox(
-                height: 20,
+                height: 10,
               ),
-              Row(
+              Column(
                 children: [
-                  Expanded(
-                    child: Text(
-                      progress,
-                      style: AppTextStyles.body11,
-                    ),
+                  Text(
+                    progress,
+                    style: levelProgress,
                   ),
-                  Expanded(
-                      flex: 4,
-                      child: ProgressIndicatorWidget(
-                        value: percent,
-                      ))
+                  SizedBox(
+                    height: 10,
+                  ),
+                  ProgressIndicatorWidget(
+                    value: percent,
+                  )
                 ],
               )
             ],
