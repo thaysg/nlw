@@ -1,16 +1,7 @@
 # nlw
 
-A new Flutter project.
+Semana NLW Trilha Flutter.
 
-## Getting Started
+Nessa trilha foi criado um aplicativo de quiz, desde a leitura do design até a funcionalidade do código, com gerenciamento de estados, animação e compartilhamento para mídias sociais.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![nlw](https://user-images.githubusercontent.com/53340410/115941027-08785000-a47a-11eb-9899-c8d104f9c022.gif)
