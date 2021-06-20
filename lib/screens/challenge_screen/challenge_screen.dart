@@ -25,8 +25,8 @@ class _ChallengeScreenState extends State<ChallengeScreen> {
   final controller = ChallengeController();
   final pageController = PageController();
 
-  int timer = 30;
-  String showtimer = "30";
+  int timer = 15;
+  String showtimer = "15";
   bool canceltimer = false;
 
   void starttimer() async {
@@ -57,11 +57,11 @@ class _ChallengeScreenState extends State<ChallengeScreen> {
 
   void nextPage() {
     canceltimer = false;
-    timer = 30;
+    timer = 15;
     starttimer();
     if (controller.currentPage < widget.questions.length)
       pageController.nextPage(
-        duration: Duration(milliseconds: 300),
+        duration: Duration(milliseconds: 500),
         curve: Curves.linear,
       );
     //canceltimer = true;
@@ -73,7 +73,7 @@ class _ChallengeScreenState extends State<ChallengeScreen> {
     }
     nextPage();
     canceltimer = false;
-    timer = 30;
+    timer = 15;
     starttimer();
   }
 
@@ -98,26 +98,17 @@ class _ChallengeScreenState extends State<ChallengeScreen> {
           ),
         ),
       ),
-      body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-              image: ExactAssetImage(
-                'assets/images/4884841.jpg',
+      body: PageView(
+        physics: NeverScrollableScrollPhysics(),
+        controller: pageController,
+        children: widget.questions
+            .map(
+              (e) => QuizWidget(
+                question: e,
+                onSelected: onSelectes,
               ),
-              fit: BoxFit.cover),
-        ),
-        child: PageView(
-          physics: NeverScrollableScrollPhysics(),
-          controller: pageController,
-          children: widget.questions
-              .map(
-                (e) => QuizWidget(
-                  question: e,
-                  onSelected: onSelectes,
-                ),
-              )
-              .toList(),
-        ),
+            )
+            .toList(),
       ),
       bottomNavigationBar: SafeArea(
         bottom: true,
@@ -157,7 +148,7 @@ class _ChallengeScreenState extends State<ChallengeScreen> {
                           ),
                         );
                       },
-                      colour: AppColors.darkGreen,
+                      colour: kdarkGreen,
                       fontColor: AppColors.white,
                       label: 'Confirmar',
                     ),

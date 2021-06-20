@@ -35,35 +35,35 @@ const double kDefaultPadding = 20.0;
 
 const splashText = TextStyle(
   fontSize: 60,
-  color: Color(0xff532c61),
+  color: kWhiteColor,
   fontWeight: FontWeight.bold,
   fontFamily: 'Regular 400',
-  shadows: [
-    Shadow(blurRadius: 5.0, color: Color(0xfffaa54b), offset: Offset(3.0, 3.0)),
-  ],
 );
 
 const levelText = TextStyle(
-  color: kDarkPurple,
-  fontFamily: 'Regular 400',
+  color: kWhiteColor,
+  //fontFamily: 'Regular 400',
   letterSpacing: 2,
   fontSize: 25,
   fontWeight: FontWeight.w800,
 );
 
 const levelProgress = TextStyle(
-  color: kDarkPurple,
+  color: kWhiteColor,
   fontFamily: 'Regular 400',
   fontSize: 20,
-  fontWeight: FontWeight.bold,
+);
+
+const quizText = TextStyle(
+  color: kWhiteColor,
+  fontSize: 22,
 );
 
 const answerText = TextStyle(
-  color: kDarkPurple,
-  fontFamily: 'Regular 400',
+  color: kWhiteColor,
+  //fontFamily: 'Regular 400',
   letterSpacing: 2,
   fontSize: 22,
-  fontWeight: FontWeight.w800,
 );
 
 const rightText = TextStyle(

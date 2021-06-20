@@ -48,7 +48,7 @@ class Answer extends StatelessWidget {
             vertical: 10,
           ),
           decoration: BoxDecoration(
-            color: isSelected ? _selectedColorCardRight : AppColors.black,
+            color: isSelected ? _selectedColorCardRight : AppColors.greyTwo,
             borderRadius: BorderRadius.circular(10),
             border: Border.fromBorderSide(
               BorderSide(

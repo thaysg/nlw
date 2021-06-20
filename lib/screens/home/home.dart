@@ -1,6 +1,5 @@
 import 'package:DevQuiz/components/colors.dart';
 import 'package:DevQuiz/models/levels_color.dart';
-import 'package:DevQuiz/models/quiz_model.dart';
 import 'package:DevQuiz/screens/challenge_screen/challenge_screen.dart';
 import 'package:DevQuiz/screens/home/home_controller.dart/home_controller.dart';
 import 'package:DevQuiz/screens/home/home_controller.dart/home_state.dart';
@@ -61,6 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
     if (controller.state == HomeState.success) {
       return Scaffold(
         appBar: AppBar(
+          elevation: 0,
           title: Text(
             'Bible Quiz',
             style: TextStyle(

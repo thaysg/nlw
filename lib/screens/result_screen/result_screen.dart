@@ -1,12 +1,11 @@
 import 'package:DevQuiz/components/colors.dart';
-import 'package:DevQuiz/components/images.dart';
 import 'package:DevQuiz/components/text_style.dart';
 import 'package:DevQuiz/screens/challenge_screen/widgets/next_button.dart';
 import 'package:DevQuiz/screens/home/home.dart';
 import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';
 
-class ResultScreen extends StatelessWidget {
+class ResultScreen extends StatefulWidget {
   final String title;
   final int lenght;
   final int result;
@@ -18,13 +17,32 @@ class ResultScreen extends StatelessWidget {
       required this.result})
       : super(key: key);
 
+  @override
+  _ResultScreenState createState() => _ResultScreenState();
+}
+
+class _ResultScreenState extends State<ResultScreen> {
   score() {
-    if ((result / lenght) * 100 >= 80) {
+    if ((widget.result / widget.lenght) * 100 >= 80) {
       return 'Parabéns';
-    } else if ((result / lenght) * 100 >= 60) {
-      return 'Continue assim';
+    } else if ((widget.result / widget.lenght) * 100 >= 60) {
+      return 'Muito Bom, continue estudando';
     } else {
       return 'Você precisa ler a bíblia';
+    }
+  }
+
+  AssetImage gold = AssetImage('assets/images/gold-cup.png');
+  AssetImage silver = AssetImage('assets/images/silver-cup.png');
+  AssetImage sad = AssetImage('assets/images/sad.png');
+
+  getImage() {
+    if ((widget.result / widget.lenght) * 100 >= 80) {
+      return gold;
+    } else if ((widget.result / widget.lenght) * 100 >= 60) {
+      return silver;
+    } else {
+      return sad;
     }
   }
 
@@ -40,14 +58,14 @@ class ResultScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Expanded(
-              flex: 4,
-              child: Image.asset(
-                AppImages.trophy,
+              flex: 3,
+              child: Image(
+                image: getImage(),
               ),
             ),
+            Spacer(),
             Expanded(
               child: Text(
-                /* 'Parabéns!', */
                 score(),
                 style: AppTextStyles.heading40,
                 textAlign: TextAlign.center,
@@ -60,15 +78,16 @@ class ResultScreen extends StatelessWidget {
               child: Text.rich(
                 TextSpan(
                   text: 'Você concluiu',
-                  style: AppTextStyles.body,
+                  style: AppTextStyles.conclui,
                   children: [
                     TextSpan(
-                      text: '\n$title',
-                      style: AppTextStyles.bodyBold,
+                      text: '\n${widget.title}',
+                      style: AppTextStyles.level,
                       children: [
                         TextSpan(
-                            text: '\ncom $result de $lenght acertos',
-                            style: AppTextStyles.body),
+                            text:
+                                '\ncom ${widget.result} de ${widget.lenght} acertos',
+                            style: AppTextStyles.conclui),
                       ],
                     ),
                   ],
@@ -96,9 +115,9 @@ class ResultScreen extends StatelessWidget {
               child: NextButtonWidget(
                 label: 'Voltar ao inicio',
                 colour: Colors.transparent,
-                fontColor: AppColors.grey,
+                fontColor: AppColors.white,
                 onTap: () {
-                  Navigator.pushReplacement(
+                  Navigator.pop(
                     context,
                     MaterialPageRoute(
                       builder: (context) => HomeScreen(),

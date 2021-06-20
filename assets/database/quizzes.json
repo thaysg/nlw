@@ -1,7 +1,7 @@
 [
     {        
         "title": "Fácil",
-        "image": "assets/images/l1.png",        
+        "image": "assets/images/bronze-bg.png",        
         "questionAnswerd": 0,
         "level": "easy",
         "color": "1",
@@ -93,7 +93,7 @@
 
     {        
       "title": "Médio",
-      "image": "assets/images/l2.png",
+      "image": "assets/images/prata-bg.png",
       "questionAnswerd": 0,
       "level": "medium",
       "color": "2",
@@ -282,7 +282,7 @@
 
   {        
     "title": "Díficil",
-    "image": "assets/images/l3.png",
+    "image": "assets/images/gold-bg.png",
     "questionAnswerd": 0,
     "level": "hard",
     "color": "3",
@@ -471,7 +471,7 @@
 
 {        
   "title": "Expert",
-  "image": "assets/images/l4.png",
+  "image": "assets/images/platinum-bg.png",
   "questionAnswerd": 0,
   "level": "expert",
   "color": "0xffd11f40",

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class NextButtonWidget extends StatelessWidget {
   final String label;
@@ -32,9 +31,11 @@ class NextButtonWidget extends StatelessWidget {
         onPressed: onTap,
         child: Text(
           label,
-          style: GoogleFonts.notoSans(
-            fontWeight: FontWeight.w600,
-            fontSize: 17,
+          style: TextStyle(
+            fontFamily: 'Regular 400',
+            letterSpacing: 2,
+            fontWeight: FontWeight.w400,
+            fontSize: 27,
             color: fontColor,
           ),
         ),

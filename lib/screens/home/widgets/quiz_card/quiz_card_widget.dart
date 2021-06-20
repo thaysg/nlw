@@ -25,12 +25,19 @@ class QuizCardWidget extends StatelessWidget {
       onTap: onTap,
       child: Container(
         decoration: BoxDecoration(
+          boxShadow: <BoxShadow>[
+            BoxShadow(
+                color: Colors.black,
+                blurRadius: 15.0,
+                offset: Offset(0.0, 0.75))
+          ],
           border: Border.fromBorderSide(
             BorderSide(
               color: AppColors.border,
             ),
           ),
-          gradient: kSecondaryGradient,
+          color: Color(0xff383D6E),
+          /* gradient: kSecondaryGradient */
           borderRadius: BorderRadius.circular(10),
         ),
         child: Padding(

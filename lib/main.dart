@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Avengers Quiz',
       theme: ThemeData.dark().copyWith(
-        primaryColor: Color(0xff07091D),
-        scaffoldBackgroundColor: Color(0xff07091D),
+        primaryColor: Color(0xff333256),
+        scaffoldBackgroundColor: Color(0xff333256),
       ),
       home: MySplashScreen(),
     );

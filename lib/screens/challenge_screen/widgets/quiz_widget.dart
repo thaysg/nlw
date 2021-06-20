@@ -1,6 +1,5 @@
 import 'package:DevQuiz/components/colors.dart';
 import 'package:DevQuiz/components/constants.dart';
-import 'package:DevQuiz/components/text_style.dart';
 import 'package:DevQuiz/models/answers_model.dart';
 import 'package:DevQuiz/models/question_model.dart';
 import 'package:flutter/material.dart';
@@ -41,7 +40,7 @@ class _QuizWidgetState extends State<QuizWidget> {
               ),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
-                color: kDarkTwoPurple,
+                color: AppColors.greyTwo,
                 border: Border.fromBorderSide(
                   BorderSide(
                     color: AppColors.border,
@@ -55,7 +54,7 @@ class _QuizWidgetState extends State<QuizWidget> {
                 ),
                 child: Text(
                   widget.question.title,
-                  style: AppTextStyles.titleBold,
+                  style: quizText,
                   textAlign: TextAlign.center,
                 ),
               ),
