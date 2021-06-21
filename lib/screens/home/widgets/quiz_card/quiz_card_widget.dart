@@ -37,7 +37,6 @@ class QuizCardWidget extends StatelessWidget {
             ),
           ),
           color: Color(0xff383D6E),
-          /* gradient: kSecondaryGradient */
           borderRadius: BorderRadius.circular(10),
         ),
         child: Padding(
@@ -46,17 +45,18 @@ class QuizCardWidget extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Container(
-                height: 40,
+                height: 50,
                 width: 60,
                 child: Image.asset(
                   picture,
                 ),
               ),
               SizedBox(
-                height: 20,
+                height: 10,
               ),
               Text(
                 title,
+                textAlign: TextAlign.center,
                 style: levelText,
               ),
               SizedBox(
@@ -75,7 +75,7 @@ class QuizCardWidget extends StatelessWidget {
                     value: percent,
                   )
                 ],
-              )
+              ),
             ],
           ),
         ),

@@ -1,3 +1,4 @@
+import 'package:DevQuiz/components/adds_widgets.dart';
 import 'package:DevQuiz/components/colors.dart';
 import 'package:DevQuiz/models/levels_color.dart';
 import 'package:DevQuiz/screens/challenge_screen/challenge_screen.dart';
@@ -103,6 +104,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
             ),
+            AddsWidgets(),
           ],
         ),
       );

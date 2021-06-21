@@ -23,9 +23,6 @@ class _QuizWidgetState extends State<QuizWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      /* margin: EdgeInsets.symmetric(
-        horizontal: 16,
-      ), */
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
@@ -74,7 +71,7 @@ class _QuizWidgetState extends State<QuizWidget> {
                 Future.delayed(Duration(seconds: 1))
                     .then((_) => widget.onSelected(value));
               },
-            )
+            ),
         ],
       ),
     );

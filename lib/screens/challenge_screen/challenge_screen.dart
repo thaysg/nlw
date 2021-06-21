@@ -6,6 +6,7 @@ import 'package:DevQuiz/screens/challenge_screen/widgets/challenge_controller.da
 import 'package:DevQuiz/screens/challenge_screen/widgets/next_button.dart';
 import 'package:DevQuiz/screens/challenge_screen/widgets/question_indicator_widget.dart';
 import 'package:DevQuiz/screens/challenge_screen/widgets/quiz_widget.dart';
+import 'package:DevQuiz/screens/challenge_screen/widgets/timer_widget.dart';
 import 'package:DevQuiz/screens/result_screen/result_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -120,17 +121,8 @@ class _ChallengeScreenState extends State<ChallengeScreen> {
               children: [
                 if (value < widget.questions.length)
                   Expanded(
-                    child: CircleAvatar(
-                      radius: 50,
-                      backgroundColor: kpurpleOneColor,
-                      child: Text(
-                        showtimer,
-                        style: TextStyle(
-                          fontSize: 35.0,
-                          fontWeight: FontWeight.w700,
-                          fontFamily: 'Times New Roman',
-                        ),
-                      ),
+                    child: TimerWidget(
+                      text: showtimer,
                     ),
                   ),
                 if (value == widget.questions.length)

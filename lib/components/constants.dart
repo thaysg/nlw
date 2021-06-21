@@ -44,8 +44,8 @@ const levelText = TextStyle(
   color: kWhiteColor,
   //fontFamily: 'Regular 400',
   letterSpacing: 2,
-  fontSize: 25,
-  fontWeight: FontWeight.w800,
+  fontSize: 18,
+  fontWeight: FontWeight.w500,
 );
 
 const levelProgress = TextStyle(

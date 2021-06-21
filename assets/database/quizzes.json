@@ -674,6 +674,418 @@
       ]
     }                
   ]            
+},
+{        
+  "title": "Quem Sou Eu",
+  "image": "assets/images/suspect.png",
+  "questionAnswerd": 0,
+  "level": "expert",
+  "color": "0xffd11f40",
+  "questions": [
+    {"title": "A quem Paulo chamou de 'meu companheiro de lutas'?", 
+      "answers": [
+   { "title": "Apolo"},
+   { "title": "Silas"},
+   { "title": "Barnabé"},
+   { "title": "Arquipo", "isRight": true}            
+      ]
+    },
+    {
+      "title": "Quais discípulos perguntaram a Jesus se podiam fazer descer fogo do céu?", 
+      "answers": [
+   { "title": "João e Tiago", "isRight": true},
+   { "title": "Pedro e João"},
+   { "title": "Pedro e Tiago"},
+   { "title": "Pedro, Tiago e João"}            
+      ]
+    },
+    {
+      "title": "Qual era o nome da serpente de bronze que Moisés tinha feito?", 
+      "answers": [
+   { "title": "Neustã", "isRight": true},
+   { "title": "Leviatã"},
+   { "title": "Jormungand"},
+   { "title": "Apófis "}            
+      ]
+    },
+    {
+      "title": "Qual era o nome babilônico de Daniel?", 
+      "answers": [
+   { "title": "Aspenaz"},
+   { "title": "Misael"},
+   { "title": "Beltessazar", "isRight": true},
+   { "title": "Belsazar"}            
+      ]
+    },
+    {
+      "title": "Qual o livro da Bíblia que termina com um ponto de interrogação?", 
+      "answers": [
+   { "title": "Jonas", "isRight": true},
+   { "title": "Juda"},
+   { "title": "Joel"},
+   { "title": "Jeremias"}            
+      ]
+    },
+    {
+      "title": "Em quais livros da Bíblia não encontramos a palavra 'Deus'?", 
+      "answers": [
+   { "title": "Ageu e Amós"},
+   { "title": "Ester e Cânticos", "isRight": true},
+   { "title": "Oséias e Eclesiastes"},
+   { "title": "Ester e Esdras"}            
+      ]
+    },
+    {
+      "title": "Quem escreveu a Epístola de Judas?", 
+      "answers": [
+   { "title": "Judas Iscariotes"},
+   { "title": "Judas irmão de Jesus"},
+   { "title": "Lucas"},
+   { "title": "Judas irmão de Tiago", "isRight": true}            
+      ]
+    },
+    {
+      "title": "Quem teve seu corpo disputado pelo arcanjo Miguel e o Diabo?", 
+      "answers": [
+   { "title": "Elias", "isRight": true},
+   { "title": "Eliseu"},
+   { "title": "Moisés", "isRight": true},
+   { "title": "Noé"}            
+      ]
+    },
+    {
+      "title": "A Morte montada em um cavalo amarelo surgiu na abertura de qual selo em Apocalipse?", 
+      "answers": [
+   { "title": "Primeiro Selo", "isRight": true},
+   { "title": "Segundo Selo"},
+   { "title": "Terceiro Selo"},
+   { "title": "Quarto Selo", "isRight": true}            
+      ]
+    },
+    {
+      "title": "A estátua do sonho de Nabucodonosor era composta de quais elementos?", 
+      "answers": [
+   { "title": " Toda em ouro"},
+   { "title": "Ouro, prata, bronze, ferro e barro", "isRight": true},
+   { "title": "Ouro, prata, bronze, onix e ferro"},
+   { "title": "Ouro, prata, bronze, marfim e ferro"}            
+      ]
+    },
+    {
+      "title": "Qual foram os dois nomes indicados para substituir Judas Iscariotes?", 
+      "answers": [
+   { "title": "Barsabás e Matias", "isRight": true},
+   { "title": "Silas e Barnabé"},
+   { "title": "Paulo e Estevão"},
+   { "title": "Paulo e Matias"}            
+      ]
+    },
+    {
+      "title": "Em qual dia da criação foi feito o sol, a lua e as estrelas?", 
+      "answers": [
+   { "title": "1º dia"},
+   { "title": "2º dia"},
+   { "title": "3º dia"},
+   { "title": "4º dia", "isRight": true}            
+      ]
+    },
+    {
+      "title": "Qual é o versículo mais extenso da Bíblia?", 
+      "answers": [
+   { "title": "Salmos 119:105"},
+   { "title": "Salmos 119:119"},
+   { "title": "Ester 8:9", "isRight": true},
+   { "title": "Isaías 24:2"}            
+      ]
+    },
+    {
+      "title": "Quantos versículos tem Salmos 119?", 
+      "answers": [
+   { "title": "200"},
+   { "title": "176", "isRight": true},
+   { "title": "157"},
+   { "title": "105"}            
+      ]
+    },
+    {
+      "title": "Quais os 2 homens que o Apóstolo Paulo disse que naufragaram na fé?", 
+      "answers": [
+   { "title": "Himeneu e Alexandre", "isRight": true},
+   { "title": "Janes e Jambres"},
+   { "title": "Marcos e Tito"},
+   { "title": "Silas e Barnabé"}            
+      ]
+    },
+    {
+      "title": "Qual o nome do pai de Saul?", 
+      "answers": [
+   { "title": "Abiel"},
+   { "title": "Zeror"},
+   { "title": "Jessé"},
+   { "title": "Quiz", "isRight": true}            
+      ]
+    },
+    {
+      "title": "Balaão foi chamado por quem para amaldiçoar o povo de Israel?", 
+      "answers": [
+   { "title": "Moabe"},
+   { "title": "Balaque", "isRight": true},
+   { "title": "Zipor"},
+   { "title": "Faraó"}            
+      ]
+    },
+    {
+      "title": "Quais são as 7 igrejas que receberam as cartas em Apocalipse?", 
+      "answers": [
+   { "title": "Éfeso, Esmirna, Pérgamo, Tiatira, Sardes, Filadélfia e Laodicei", "isRight": true},
+   { "title": "Éfeso, Filipo, Pérgamo, Tiatira, Creta, Filadélfia e Laodiceia"},
+   { "title": "Éfeso, Macedônia, Pérgamo, Filipo, Tessalônica, Filadélfia e Laodiceia"},
+   { "title": "Éfeso, Esmirna, Corinto, Tiatira, Sardes, Filadélfia e Laodicei"}            
+      ]
+    },
+    {
+      "title": "Como se chamava a mulher de Arão?", 
+      "answers": [
+   { "title": "Miriã"},
+   { "title": "Eliseba", "isRight": true},
+   { "title": "Mara"},
+   { "title": "Não se sabe"}            
+      ]
+    },
+    {
+      "title": "Quem disse: pode vir alguma coisa boa de Nazaré?", 
+      "answers": [
+   { "title": "Natanael", "isRight": true},
+   { "title": "André"},
+   { "title": "Tomé"},
+   { "title": "Felipe"}            
+      ]
+    },
+    {
+      "title": "Qual é o oitavo mandamento?", 
+      "answers": [
+   { "title": "Não matarás"},
+   { "title": "Não adulterarás"},
+   { "title": "Não furtarás", "isRight": true},
+   { "title": "Honrar pai e mãe"}            
+      ]
+    },
+    {
+      "title": " Qual é a sexta praga do Egito?", 
+      "answers": [
+   { "title": "Gafanhotos"},
+   { "title": "Sapos"},
+   { "title": "Trevas"},
+   { "title": "Úlceras", "isRight": true}            
+      ]
+    }                
+  ]            
+},
+{        
+  "title": "V ou F",
+  "image": "assets/images/true-or-false.png",
+  "questionAnswerd": 0,
+  "level": "expert",
+  "color": "0xffd11f40",
+  "questions": [
+    {"title": "A quem Paulo chamou de 'meu companheiro de lutas'?", 
+      "answers": [
+   { "title": "Apolo"},
+   { "title": "Silas"},
+   { "title": "Barnabé"},
+   { "title": "Arquipo", "isRight": true}            
+      ]
+    },
+    {
+      "title": "Quais discípulos perguntaram a Jesus se podiam fazer descer fogo do céu?", 
+      "answers": [
+   { "title": "João e Tiago", "isRight": true},
+   { "title": "Pedro e João"},
+   { "title": "Pedro e Tiago"},
+   { "title": "Pedro, Tiago e João"}            
+      ]
+    },
+    {
+      "title": "Qual era o nome da serpente de bronze que Moisés tinha feito?", 
+      "answers": [
+   { "title": "Neustã", "isRight": true},
+   { "title": "Leviatã"},
+   { "title": "Jormungand"},
+   { "title": "Apófis "}            
+      ]
+    },
+    {
+      "title": "Qual era o nome babilônico de Daniel?", 
+      "answers": [
+   { "title": "Aspenaz"},
+   { "title": "Misael"},
+   { "title": "Beltessazar", "isRight": true},
+   { "title": "Belsazar"}            
+      ]
+    },
+    {
+      "title": "Qual o livro da Bíblia que termina com um ponto de interrogação?", 
+      "answers": [
+   { "title": "Jonas", "isRight": true},
+   { "title": "Juda"},
+   { "title": "Joel"},
+   { "title": "Jeremias"}            
+      ]
+    },
+    {
+      "title": "Em quais livros da Bíblia não encontramos a palavra 'Deus'?", 
+      "answers": [
+   { "title": "Ageu e Amós"},
+   { "title": "Ester e Cânticos", "isRight": true},
+   { "title": "Oséias e Eclesiastes"},
+   { "title": "Ester e Esdras"}            
+      ]
+    },
+    {
+      "title": "Quem escreveu a Epístola de Judas?", 
+      "answers": [
+   { "title": "Judas Iscariotes"},
+   { "title": "Judas irmão de Jesus"},
+   { "title": "Lucas"},
+   { "title": "Judas irmão de Tiago", "isRight": true}            
+      ]
+    },
+    {
+      "title": "Quem teve seu corpo disputado pelo arcanjo Miguel e o Diabo?", 
+      "answers": [
+   { "title": "Elias", "isRight": true},
+   { "title": "Eliseu"},
+   { "title": "Moisés", "isRight": true},
+   { "title": "Noé"}            
+      ]
+    },
+    {
+      "title": "A Morte montada em um cavalo amarelo surgiu na abertura de qual selo em Apocalipse?", 
+      "answers": [
+   { "title": "Primeiro Selo", "isRight": true},
+   { "title": "Segundo Selo"},
+   { "title": "Terceiro Selo"},
+   { "title": "Quarto Selo", "isRight": true}            
+      ]
+    },
+    {
+      "title": "A estátua do sonho de Nabucodonosor era composta de quais elementos?", 
+      "answers": [
+   { "title": " Toda em ouro"},
+   { "title": "Ouro, prata, bronze, ferro e barro", "isRight": true},
+   { "title": "Ouro, prata, bronze, onix e ferro"},
+   { "title": "Ouro, prata, bronze, marfim e ferro"}            
+      ]
+    },
+    {
+      "title": "Qual foram os dois nomes indicados para substituir Judas Iscariotes?", 
+      "answers": [
+   { "title": "Barsabás e Matias", "isRight": true},
+   { "title": "Silas e Barnabé"},
+   { "title": "Paulo e Estevão"},
+   { "title": "Paulo e Matias"}            
+      ]
+    },
+    {
+      "title": "Em qual dia da criação foi feito o sol, a lua e as estrelas?", 
+      "answers": [
+   { "title": "1º dia"},
+   { "title": "2º dia"},
+   { "title": "3º dia"},
+   { "title": "4º dia", "isRight": true}            
+      ]
+    },
+    {
+      "title": "Qual é o versículo mais extenso da Bíblia?", 
+      "answers": [
+   { "title": "Salmos 119:105"},
+   { "title": "Salmos 119:119"},
+   { "title": "Ester 8:9", "isRight": true},
+   { "title": "Isaías 24:2"}            
+      ]
+    },
+    {
+      "title": "Quantos versículos tem Salmos 119?", 
+      "answers": [
+   { "title": "200"},
+   { "title": "176", "isRight": true},
+   { "title": "157"},
+   { "title": "105"}            
+      ]
+    },
+    {
+      "title": "Quais os 2 homens que o Apóstolo Paulo disse que naufragaram na fé?", 
+      "answers": [
+   { "title": "Himeneu e Alexandre", "isRight": true},
+   { "title": "Janes e Jambres"},
+   { "title": "Marcos e Tito"},
+   { "title": "Silas e Barnabé"}            
+      ]
+    },
+    {
+      "title": "Qual o nome do pai de Saul?", 
+      "answers": [
+   { "title": "Abiel"},
+   { "title": "Zeror"},
+   { "title": "Jessé"},
+   { "title": "Quiz", "isRight": true}            
+      ]
+    },
+    {
+      "title": "Balaão foi chamado por quem para amaldiçoar o povo de Israel?", 
+      "answers": [
+   { "title": "Moabe"},
+   { "title": "Balaque", "isRight": true},
+   { "title": "Zipor"},
+   { "title": "Faraó"}            
+      ]
+    },
+    {
+      "title": "Quais são as 7 igrejas que receberam as cartas em Apocalipse?", 
+      "answers": [
+   { "title": "Éfeso, Esmirna, Pérgamo, Tiatira, Sardes, Filadélfia e Laodicei", "isRight": true},
+   { "title": "Éfeso, Filipo, Pérgamo, Tiatira, Creta, Filadélfia e Laodiceia"},
+   { "title": "Éfeso, Macedônia, Pérgamo, Filipo, Tessalônica, Filadélfia e Laodiceia"},
+   { "title": "Éfeso, Esmirna, Corinto, Tiatira, Sardes, Filadélfia e Laodicei"}            
+      ]
+    },
+    {
+      "title": "Como se chamava a mulher de Arão?", 
+      "answers": [
+   { "title": "Miriã"},
+   { "title": "Eliseba", "isRight": true},
+   { "title": "Mara"},
+   { "title": "Não se sabe"}            
+      ]
+    },
+    {
+      "title": "Quem disse: pode vir alguma coisa boa de Nazaré?", 
+      "answers": [
+   { "title": "Natanael", "isRight": true},
+   { "title": "André"},
+   { "title": "Tomé"},
+   { "title": "Felipe"}            
+      ]
+    },
+    {
+      "title": "Qual é o oitavo mandamento?", 
+      "answers": [
+   { "title": "Não matarás"},
+   { "title": "Não adulterarás"},
+   { "title": "Não furtarás", "isRight": true},
+   { "title": "Honrar pai e mãe"}            
+      ]
+    },
+    {
+      "title": " Qual é a sexta praga do Egito?", 
+      "answers": [
+   { "title": "Gafanhotos"},
+   { "title": "Sapos"},
+   { "title": "Trevas"},
+   { "title": "Úlceras", "isRight": true}            
+      ]
+    }                
+  ]            
 }
     
 ]
